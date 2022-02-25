@@ -29,11 +29,27 @@ function f2($parameter) {
         echo "<br>";
     }
 }
-f2(6);
+f2(10);
+echo "<br>";
+echo "Exercise 4: Fucntion";
+echo "<br>";
+echo "<br>";
 
+function word_count($string) {
+    return str_word_count($string);
+}
+echo word_count("Hello how are you!");
 
-
-
+echo "<br>";
+echo "Exercise 5: Fucntion";
+echo "<br>";
+echo "<br>";
+function countWords($data) {
+    $arrayWords = explode(" ", $data);
+    $numberOfOccurance = array_count_values(array_map("strtoupper", $arrayWords));
+    print_r($numberOfOccurance);
+}
+countWords("Hello hello Hello hello name cat");
 
 
 
