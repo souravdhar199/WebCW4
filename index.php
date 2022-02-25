@@ -49,7 +49,28 @@ function countWords($data) {
     $numberOfOccurance = array_count_values(array_map("strtoupper", $arrayWords));
     print_r($numberOfOccurance);
 }
-countWords("Hello hello Hello hello name cat");
+countWords("tinni titli tinni Tinni shaike");
+
+echo "<br>";
+echo "Exercise 6: Fucntion";
+echo "<br>";
+
+
+function remove_char($sentence, $remove){
+    $chars = str_split($sentence);
+    $ans ="";
+    foreach($chars as $i){
+        if($i!=$remove){$ans=$ans.$i;}
+    }
+    echo "<br>";
+    return  $ans;
+
+
+}
+echo "<br>";
+echo "Given: hello open your boo, remove = o ";
+echo remove_char("hello open your book", "o");
+
 
 
 
