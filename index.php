@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>CW4</h1>
+<pre>
 <?php
 echo "Exercise 1: Function";
 echo "<br>";
@@ -70,8 +83,8 @@ function remove_char($sentence, $remove){
 echo "<br>";
 echo "Given: hello open your boo, remove = o ";
 echo remove_char("hello open your book", "o");
-
-
-
-
 ?>
+</pre>
+</body>
+
+</html>
